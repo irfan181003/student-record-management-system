@@ -1,0 +1,324 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\Irfan\Documents\Assignments 5th sem\student-record-system> python main.py --file data/students.txt --format txt --output data/students_updated.txt
+
+Students loaded successfully.
+Total students: 5
+
+========================================
+ Student Record Management System
+========================================
+1. Display all students
+2. Search by Student ID
+3. Search by Name
+4. Search by Department
+5. Search by Average
+6. Add a student
+7. Remove a student
+8. Update student marks
+9. Save students
+10. Exit
+Enter your choice: 1
+Student ID: 101
+Name: Rahul
+Department: Computer Science
+Semester: 1
+Subject 1: 78
+Subject 2: 82
+Subject 3: 69
+Total: 229
+Average: 76.33
+Result: Pass
+--------------------
+Student ID: 102
+Name: Priya
+Department: Computer Science
+Semester: 1
+Subject 1: 91
+Subject 2: 87
+Subject 3: 94
+Total: 272
+Average: 90.67
+Result: Pass
+--------------------
+Student ID: 103
+Name: Amit
+Department: Mathematics
+Semester: 1
+Subject 1: 65
+Subject 2: 71
+Subject 3: 68
+Total: 204
+Average: 68.0
+Result: Pass
+--------------------
+Student ID: 104
+Name: Sara
+Department: Physics
+Semester: 1
+Subject 1: 55
+Subject 2: 62
+Subject 3: 58
+Total: 175
+Average: 58.33
+Result: Pass
+--------------------
+Student ID: 105
+Name: Ali
+Department: Computer Science
+Semester: 1
+Subject 1: 88
+Subject 2: 76
+Subject 3: 91
+Total: 255
+Average: 85.0
+Result: Pass
+--------------------
+
+========================================
+ Student Record Management System
+========================================
+1. Display all students
+2. Search by Student ID
+3. Search by Name
+4. Search by Department
+5. Search by Average
+6. Add a student
+7. Remove a student
+8. Update student marks
+9. Save students
+10. Exit
+Enter your choice: 2
+Enter Student ID: 105
+Student ID: 105
+Name: Ali
+Department: Computer Science
+Semester: 1
+Subject 1: 88
+Subject 2: 76
+Subject 3: 91
+Total: 255
+Average: 85.0
+Result: Pass
+
+========================================
+ Student Record Management System
+========================================
+1. Display all students
+2. Search by Student ID
+3. Search by Name
+4. Search by Department
+5. Search by Average
+6. Add a student
+7. Remove a student
+8. Update student marks
+9. Save students
+10. Exit
+Enter your choice: 3
+Enter student name: Priya
+Student ID: 102
+Name: Priya
+Department: Computer Science
+Semester: 1
+Subject 1: 91
+Subject 2: 87
+Subject 3: 94
+Total: 272
+Average: 90.67
+Result: Pass
+--------------------
+
+========================================
+ Student Record Management System
+========================================
+1. Display all students
+2. Search by Student ID
+3. Search by Name
+4. Search by Department
+5. Search by Average
+6. Add a student
+7. Remove a student
+8. Update student marks
+9. Save students
+10. Exit
+Enter your choice: 4
+Enter department: Computer Science
+Student ID: 101
+Name: Rahul
+Department: Computer Science
+Semester: 1
+Subject 1: 78
+Subject 2: 82
+Subject 3: 69
+Total: 229
+Average: 76.33
+Result: Pass
+--------------------
+Student ID: 102
+Name: Priya
+Department: Computer Science
+Semester: 1
+Subject 1: 91
+Subject 2: 87
+Subject 3: 94
+Total: 272
+Average: 90.67
+Result: Pass
+--------------------
+Student ID: 105
+Name: Ali
+Department: Computer Science
+Semester: 1
+Subject 1: 88
+Subject 2: 76
+Subject 3: 91
+Total: 255
+Average: 85.0
+Result: Pass
+--------------------
+
+========================================
+ Student Record Management System
+========================================
+1. Display all students
+2. Search by Student ID
+3. Search by Name
+4. Search by Department
+5. Search by Average
+6. Add a student
+7. Remove a student
+8. Update student marks
+9. Save students
+10. Exit
+Enter your choice: 5
+Enter minimum average: 76
+Student ID: 101
+Name: Rahul
+Department: Computer Science
+Semester: 1
+Subject 1: 78
+Subject 2: 82
+Subject 3: 69
+Total: 229
+Average: 76.33
+Result: Pass
+--------------------
+Student ID: 102
+Name: Priya
+Department: Computer Science
+Semester: 1
+Subject 1: 91
+Subject 2: 87
+Subject 3: 94
+Total: 272
+Average: 90.67
+Result: Pass
+--------------------
+Student ID: 105
+Name: Ali
+Department: Computer Science
+Semester: 1
+Subject 1: 88
+Subject 2: 76
+Subject 3: 91
+Total: 255
+Average: 85.0
+Result: Pass
+--------------------
+
+========================================
+ Student Record Management System
+========================================
+1. Display all students
+2. Search by Student ID
+3. Search by Name
+4. Search by Department
+5. Search by Average
+6. Add a student
+7. Remove a student
+8. Update student marks
+9. Save students
+10. Exit
+Enter your choice: 6
+
+Enter student details
+Enter Student ID: 106
+Enter Name: Irfan
+Enter Department: Computer Science
+Enter Semester: 5
+Enter Subject 1 marks: 89
+Enter Subject 2 marks: 90
+Enter Subject 3 marks: 92
+Student added successfully.
+
+========================================
+ Student Record Management System
+========================================
+1. Display all students
+2. Search by Student ID
+3. Search by Name
+4. Search by Department
+5. Search by Average
+6. Add a student
+7. Remove a student
+8. Update student marks
+9. Save students
+10. Exit
+Enter your choice: 7
+Enter Student ID to remove: 101
+Student removed successfully.
+
+========================================
+ Student Record Management System
+========================================
+1. Display all students
+2. Search by Student ID
+3. Search by Name
+4. Search by Department
+5. Search by Average
+6. Add a student
+7. Remove a student
+8. Update student marks
+9. Save students
+10. Exit
+Enter your choice: 8
+Enter Student ID: 104
+Enter new marks
+Enter Subject 1 marks: 77
+Enter Subject 2 marks: 94
+Enter Subject 3 marks: 80
+Student marks updated successfully.
+
+========================================
+ Student Record Management System
+========================================
+1. Display all students
+2. Search by Student ID
+3. Search by Name
+4. Search by Department
+5. Search by Average
+6. Add a student
+7. Remove a student
+8. Update student marks
+9. Save students
+10. Exit
+Enter your choice: 9
+Students saved successfully to: data/students_updated.txt
+
+========================================
+ Student Record Management System
+========================================
+1. Display all students
+2. Search by Student ID
+3. Search by Name
+4. Search by Department
+5. Search by Average
+6. Add a student
+7. Remove a student
+8. Update student marks
+9. Save students
+10. Exit
+Enter your choice: 10
+Thank you for using the Student Record Management System.
+PS C:\Users\Irfan\Documents\Assignments 5th sem\student-record-system>
